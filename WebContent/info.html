@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>控件使用说明</title>
+</head>
+<body>
+<p>//ckeditor编辑器插件</p>
+<p><strong>var</strong> obj;&nbsp;&nbsp;&nbsp; //定义对象</p>
+<p>$(<strong>function</strong>(){</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //指定高度不要低于560,否则跳出的文件框会显示不完整</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; obj = <strong>new</strong> widget_textarea({height : "560px"});</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //指定替换textarea id=editor1</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; obj.init(&quot;editor1&quot;);&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>});</p>
+<p>&nbsp;</p>
+<p>//文件管理器插件,直接可以跳出,然后双击返回文件地址</p>
+<p><strong>var</strong> wb1;//定义对象</p>
+<p>$(<strong>function</strong>(){</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //指定事件的文本textfield id=ordermobile,同时还要传入对象名称,使之可以被回调</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wb1 = <strong>new</strong> widget_button({ inputid : &quot;ordermobile&quot;, objname : &quot;wb1&quot; });</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wb1.init();</p>
+<p>});</p>
+</body>
+</html>
