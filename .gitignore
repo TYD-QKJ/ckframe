@@ -27,6 +27,14 @@ local.properties
 
 # PDT-specific
 .buildpath
+/.externalToolBuilders/
+/.settings/
+/build/
+META-INF/
+.gitignore
+.gitattributes
+.project
+.classpath
 
 
 #################
@@ -222,3 +230,6 @@ pip-log.txt
 /.settings/
 /build/
 META-INF/
+/.g*
+/.project
+/.classpath
